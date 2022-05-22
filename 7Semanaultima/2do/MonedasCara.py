@@ -1,9 +1,9 @@
+#  Alumno: Arnulfo Aranda Castro
+#  Diplomado de TI -  Facultad de Telematica - Universidad de Colima
+#  Funcion para juego de Sellos o Aguilas
+#
 from random import choice
-#from re import M
-#import random
-
 print("\n TIO DE MONEDAS")
-
 def caras():
     return choice(['Aguila', 'Sello'])
 
