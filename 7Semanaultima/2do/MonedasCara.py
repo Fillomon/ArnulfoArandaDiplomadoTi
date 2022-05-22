@@ -3,7 +3,7 @@
 #  Funcion para juego de Sellos o Aguilas
 #
 from random import choice
-print("\n TIO DE MONEDAS")
+print("\n TIRO DE MONEDAS")
 def caras():
     return choice(['Aguila', 'Sello'])
 

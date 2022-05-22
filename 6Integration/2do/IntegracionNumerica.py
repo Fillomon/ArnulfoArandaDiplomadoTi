@@ -10,10 +10,10 @@ a = 0
 b = 1.9724
 m = (a+b)/2
  
-r1 = f(a)*(b-a)
+re1 = f(a)*(b-a)
 print("\n")
-print("Metodo por la Regla del Rectángulo: ",r1)
+print("Metodo por la Regla del Rectángulo: ",re1)
  
-r2 = ((b-a)/6)*(f(a)+4*f(m)+f(b))
-print("Metodo por la Regla de Simpson: ",r2)
+re2 = ((b-a)/6)*(f(a)+4*f(m)+f(b))
+print("Metodo por la Regla de Simpson: ",re2)
 print("\n")
