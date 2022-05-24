@@ -1,7 +1,8 @@
 import pandas as pd
-#iris = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases')
+iris = pd.read_json('https://raw.githubusercontent.com/jrgpulido/ai4edu/master/iris%2Bheaders.csv')
 #vs
-iris = pd.read_csv('https://archive.ics.uci.edu/ml/machine-lerning-databases/iris/bezdekIris.data')
+#iris = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/bezdekIris.data')
+
 
 print('head',iris.head())
 
@@ -177,19 +178,3 @@ print()
 # 
 
 corr["sepal length"].sort_values(ascending=False)
-
-# 
-# by class
-# 
-
-#import matplotlib.pyplot as plt
-plt.scatter(x=iris['sepal width'], 
-            y=iris["sepal length"],
-            c=iris[iris.columns[4]].astype('category').cat.codes,
-            s=10, 
-            cmap=plt.cm.rainbow)
-plt.show()
-
-#TAREA
-#calcular de donde salio la matriz de correlacion,
-#EXTAER 4 VALORES DE PANDAS EN 1TUPLA 2 DICIONARIO 3 LISTA 
